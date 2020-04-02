@@ -1,3 +1,12 @@
 body {
   background: pink;
 }
+
+section {
+  border-bottom: 2px solid red;
+  min-height: 65vh;
+}
+
+section:target {
+  background: blue;
+}
