@@ -1,3 +1,77 @@
+@import url("https://use.typekit.net/zxl8gur.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: pink;
+  font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+  h1 {
+    font-family: acumin-pro, sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  text-align: center;
+  }
+
+h2 {
+  font-family: acumin-pro, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+section {
+  border-bottom: 2px solid red;
+  min-height: 65vh;
+}
+
+#articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#articles>* {
+flex: 0 0 33.3333%;
+}
+
+section:target {
+  background: blue;
+}
+
+#main-menu {
+  background: rgba;
+  height:100%;
+  width:320px;
+  position:absolute;
+  top:0;
+  left:-320px;
+  transition: 1s all ease;
+}
+
+#main-menu:target{
+  left:0;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+ul {
+list-style:none;
 }
