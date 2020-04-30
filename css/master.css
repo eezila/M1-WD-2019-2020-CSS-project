@@ -38,9 +38,6 @@ section {
 flex: 0 0 33.3333%;
 }
 
-section:target {
-  background: blue;
-}
 
 #main-menu {
   background: rgba;
@@ -76,64 +73,21 @@ ul {
 list-style:none;
 }
 
-.alphabet {
-  text-align: center;
-  font-size: 30px;
-  font-family: acumin-pro, sans-serif;
+
+
+#containerabecedaire:target {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
+  flex-flow: row wrap;
   justify-content: center;
-
+  height: 100px;
 }
-.lettre{
-  padding: 20px;
+
+article {
+  width: 100px;
+  height: 100px;
   margin: 10px;
-  border: solid;
-}
-
-@keyframes rotation01 {
-		from {
-				transform: rotate(0deg);
-		}
-		to {
-				transform: rotate(359deg);
-		}
-}
-
-@keyframes rotation02 {
-		from {
-				transform: rotate(360deg);
-		}
-		to {
-				transform: rotate(0deg);
-		}
-}
-
-.rotating-wheels-01 {
-  background: green;
-  max-width: 600px;
-  position: relative;
-}
-
-.rotating-wheels-01 img {
-  position: absolute;
-  top : 0;
-}
-
-.circle01 {
-    animation: rotation01 2s infinite linear;
-}
-
-.circle02 {
-    animation: rotation02 3s infinite linear;
-}
-
-.circle03 {
-    animation: rotation01 6s infinite linear;
-}
-
-.circle04 {
-    animation: rotation02 2s infinite linear;
+border: solid;
+text-align: center;
+font-size: 50px;
+font-family: acumin-pro, sans-serif;
 }
