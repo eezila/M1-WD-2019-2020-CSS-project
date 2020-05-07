@@ -37,6 +37,12 @@ body {
 
 #wrap:not(:target) {
   transform: translate3d(-350px, 0, 0);
+  width: calc(100vw + 350px);
+}
+
+#wrap:not(:target) main {
+
+
 }
 
 #wrap:target {
